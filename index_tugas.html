@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Langkah Fundamental Untuk Menjadi Web Programmer</title>
+    <!--Add Css-->
+    <link link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">">
+    
+    <!--Mendeklarasikan style font yang tidak tersedia dalam aplikasi vs code ini dengan mengambil link referensi dari internet -->
+    <!--Membuat style image-->
+    <style>
+       @font-face {
+            font-family: 'NotoSans_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-regular.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_medium_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-medium.ttf);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_bold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-bold.woff);
+        }
+
+        @font-face {
+            font-family: 'NotoSans_semibold_online_security'; 
+            src: url(chrome-extension://llbcnfanfmjhpedaedhbcnpgeepdnnok/assets/fonts/noto-sans-semibold.ttf);
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+  <!--Mendefinisikan class dari img, h3, dan h4 dan stylenya-->
+    <div class="text-center my-4">
+        <img src="Yoga Wicaksono.jpg" alt="Yoga" style="width: 200px">
+        <br>
+        <h3 style="font-family: 'Times New Roman', Times, serif; font-size: xx-large; font-weight: bold;">Yoga Wicaksono</h3>
+        <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: medium;">Electrical Engineer</h4>
+      </div>
+      <!--Judul heading5 dan classnya-->
+      <h5 class="bg-primary rounded m-4 p-2 text-black text-center">
+        Belajar Langkah Fundamental Untuk Menjadi Web Programmer
+      </h5>
+      <!--Membuat tabel dan memanggil style class yang dipakai-->
+      <table class="table table-bordered mx-4">
+        <!--Memanggil class table dark supaya thead background berwarna gelap-->
+        <thead class="table-dark">
+          <!--Memilih style tr-->
+          <tr style="font-size: larger; font-weight: bold; ">
+            <td>Nomor</td>
+            <td>Sesi Pembelajaran</td>
+            <td>Judul</td>
+          </tr>
+        </thead>
+        <!--Membuat link referensi-->
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Sesi Ke-7</td>
+            <td><a href="sesi_07/index.html">Tugas Mandiri Sesi 07</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sesi Ke-8</td>
+            <td><a href="sesi_08/index.html">Tugas Mandiri Sesi 08</td>
+          </tr>
+        </tbody>
+      </table>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
